@@ -1,1 +1,6 @@
 .superpowers/
+.claude-flow/
+dist/
+node_modules/
+*.tsbuildinfo
+

@@ -1,0 +1,48 @@
+<svg width="200" height="50" viewBox="0 0 200 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Geometric Berry Icon -->
+  <g transform="translate(5, 10)">
+    <!-- Leaf pixels -->
+    <rect x="12" y="0" width="6" height="6" fill="#ec4899" />
+    <rect x="18" y="0" width="6" height="6" fill="#8b5cf6" />
+    
+    <!-- Berry completely composed of squares -->
+    <!-- Top row -->
+    <rect x="6" y="8" width="6" height="6" fill="#ec4899" />
+    <rect x="12" y="8" width="6" height="6" fill="#d946ef" />
+    <rect x="18" y="8" width="6" height="6" fill="#c026d3" />
+    <rect x="24" y="8" width="6" height="6" fill="#8b5cf6" />
+    
+    <!-- Middle row 1 -->
+    <rect x="0" y="14" width="6" height="6" fill="#ec4899" />
+    <rect x="6" y="14" width="6" height="6" fill="#f472b6" />
+    <rect x="12" y="14" width="6" height="6" fill="#d946ef" />
+    <rect x="18" y="14" width="6" height="6" fill="#c026d3" />
+    <rect x="24" y="14" width="6" height="6" fill="#a855f7" />
+    <rect x="30" y="14" width="6" height="6" fill="#8b5cf6" />
+    
+    <!-- Middle row 2 -->
+    <rect x="6" y="20" width="6" height="6" fill="#d946ef" />
+    <rect x="12" y="20" width="6" height="6" fill="#c026d3" />
+    <rect x="18" y="20" width="6" height="6" fill="#a855f7" />
+    <rect x="24" y="20" width="6" height="6" fill="#9333ea" />
+    
+    <!-- Bottom row -->
+    <rect x="12" y="26" width="6" height="6" fill="#c026d3" />
+    <rect x="18" y="26" width="6" height="6" fill="#9333ea" />
+  </g>
+
+  <!-- Typography -->
+  <g transform="translate(55, 34)">
+    <text font-family="'Inter', 'Roboto', sans-serif" font-weight="800" font-size="24" fill="#ffffff" letter-spacing="-0.5">
+      Pixel<tspan fill="url(#paint0_linear)">Berry</tspan>
+    </text>
+  </g>
+
+  <!-- Definitions for Gradients -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="60" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ec4899" />
+      <stop offset="1" stop-color="#8b5cf6" />
+    </linearGradient>
+  </defs>
+</svg>
