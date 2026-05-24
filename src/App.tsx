@@ -4,6 +4,7 @@ import MenuSection    from './components/MenuSection'
 import StorySection   from './components/StorySection'
 import GallerySection from './components/GallerySection'
 import EventsSection  from './components/EventsSection'
+import ReviewsSection from './components/ReviewsSection'
 import ContactSection from './components/ContactSection'
 import Footer         from './components/Footer'
 
@@ -17,6 +18,7 @@ export default function App() {
         <StorySection />
         <GallerySection />
         <EventsSection />
+        <ReviewsSection />
         <ContactSection />
       </main>
       <Footer />
