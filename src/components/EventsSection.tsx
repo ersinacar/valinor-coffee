@@ -48,7 +48,7 @@ export default function EventsSection() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.15, duration: 0.6 }}
-              className="border border-grass/30 p-8 flex flex-col md:flex-row gap-6 items-start hover:border-gold/50 transition-colors duration-300"
+              className="border border-grass/30 p-5 md:p-8 flex flex-col md:flex-row gap-4 md:gap-6 items-start hover:border-gold/50 transition-colors duration-300"
             >
               <div className="flex-1">
                 <p className="text-gold text-xs tracking-widest uppercase mb-2">{event.date}</p>
@@ -59,7 +59,7 @@ export default function EventsSection() {
               <motion.button
                 whileHover={{ scale: 1.04 }}
                 whileTap={{ scale: 0.97 }}
-                className="shrink-0 border border-gold text-gold px-6 py-2 font-display text-sm tracking-wider hover:bg-gold hover:text-forest transition-colors duration-200"
+                className="shrink-0 w-full md:w-auto text-center border border-gold text-gold px-6 py-2 font-display text-sm tracking-wider hover:bg-gold hover:text-forest transition-colors duration-200"
               >
                 Kaydol
               </motion.button>

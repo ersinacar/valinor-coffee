@@ -53,7 +53,7 @@ export default function HeroSection() {
       </div>
 
       <div className="absolute bottom-24 z-10 w-full text-center px-6 flex flex-col items-center gap-5">
-        <h1 className="font-display text-5xl md:text-7xl text-cream leading-tight">
+        <h1 className="font-display text-3xl sm:text-5xl md:text-7xl text-cream leading-tight">
           {TAGLINE_WORDS.map((word, i) => (
             <motion.span
               key={word}
@@ -71,7 +71,7 @@ export default function HeroSection() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.1, duration: 0.8 }}
-          className="text-cream/70 text-lg max-w-md"
+          className="text-cream/70 text-base sm:text-lg max-w-md"
         >
           Her yudumda bir macera, her fincanda bir hikaye.
         </motion.p>

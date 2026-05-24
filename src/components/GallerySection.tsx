@@ -40,7 +40,7 @@ export default function GallerySection() {
           Galeri
         </motion.h2>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 auto-rows-[200px] gap-3">
+        <div className="grid grid-cols-2 md:grid-cols-3 auto-rows-[150px] md:auto-rows-[200px] gap-2 md:gap-3">
           {ITEMS.map((item, i) => (
             <motion.div
               key={item.id}
@@ -82,7 +82,7 @@ export default function GallerySection() {
 
               <button
                 onClick={() => setSelected((s) => (s! > 0 ? s! - 1 : total - 1))}
-                className="absolute left-3 text-gold text-2xl hover:scale-110 transition-transform"
+                className="absolute left-0 top-1/2 -translate-y-1/2 text-gold text-2xl hover:scale-110 transition-transform p-4"
                 aria-label="Önceki"
               >
                 ←
@@ -90,7 +90,7 @@ export default function GallerySection() {
 
               <button
                 onClick={() => setSelected((s) => (s! < total - 1 ? s! + 1 : 0))}
-                className="absolute right-3 text-gold text-2xl hover:scale-110 transition-transform"
+                className="absolute right-0 top-1/2 -translate-y-1/2 text-gold text-2xl hover:scale-110 transition-transform p-4"
                 aria-label="Sonraki"
               >
                 →
@@ -98,7 +98,7 @@ export default function GallerySection() {
 
               <button
                 onClick={() => setSelected(null)}
-                className="absolute top-3 right-3 text-cream/60 hover:text-gold text-xl"
+                className="absolute top-0 right-0 text-cream/60 hover:text-gold text-xl p-4"
                 aria-label="Kapat"
               >
                 ✕
