@@ -4,3 +4,4 @@ dist/
 node_modules/
 *.tsbuildinfo
 
+public/video/hero.orig.mp4

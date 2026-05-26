@@ -8,7 +8,7 @@ export default function StorySection() {
 
   return (
     <section id="story" ref={ref} className="section-padding bg-shire/20 overflow-hidden">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-center">
 
         <div>
           <motion.span
