@@ -1,3 +1,4 @@
+import CookieBanner  from './components/CookieBanner'
 import Navbar         from './components/Navbar'
 import HeroSection    from './components/HeroSection'
 import MenuSection    from './components/MenuSection'
@@ -11,6 +12,7 @@ import Footer         from './components/Footer'
 export default function App() {
   return (
     <>
+      <CookieBanner />
       <Navbar />
       <main>
         <HeroSection />

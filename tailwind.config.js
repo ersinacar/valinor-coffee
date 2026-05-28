@@ -3,6 +3,15 @@ export default {
   content: ['./index.html', './src/**/*.{ts,tsx}'],
   theme: {
     extend: {
+      keyframes: {
+        slideUp: {
+          from: { opacity: '0', transform: 'translateX(-50%) translateY(20px)' },
+          to:   { opacity: '1', transform: 'translateX(-50%) translateY(0)' },
+        },
+      },
+      animation: {
+        slideUp: 'slideUp 400ms cubic-bezier(.22,1,.36,1) both',
+      },
       colors: {
         forest: '#728974',
         shire:  '#526854',
