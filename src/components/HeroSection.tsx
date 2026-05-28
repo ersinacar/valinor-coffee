@@ -46,7 +46,7 @@ export default function HeroSection() {
           alt="Valinor Coffee"
           initial={{ opacity: 0, scale: 0.92 }}
           animate={{ opacity: 1, scale: 1 }}
-          transition={{ delay: 9, duration: 2.5, ease: 'easeOut' }}
+          transition={{ delay: 0.5, duration: 2.5, ease: 'easeOut' }}
           className="w-20 md:w-28"
           style={{ filter: 'drop-shadow(0 0 20px rgba(200,168,75,0.4))' }}
         />

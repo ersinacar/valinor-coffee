@@ -1,5 +1,7 @@
 import { motion } from 'framer-motion'
 
+const WA_NUMBER = '905000000000'
+
 interface Event { id: string; title: string; date: string; desc: string; spots: number }
 
 const EVENTS: Event[] = [
@@ -56,13 +58,16 @@ export default function EventsSection() {
                 <p className="text-cream/60 text-sm leading-relaxed">{event.desc}</p>
                 <p className="mt-3 text-grass text-xs">{event.spots} kontenjan</p>
               </div>
-              <motion.button
+              <motion.a
+                href={`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(`Merhaba, "${event.title}" etkinliğine kayıt olmak istiyorum.`)}`}
+                target="_blank"
+                rel="noopener noreferrer"
                 whileHover={{ scale: 1.04 }}
                 whileTap={{ scale: 0.97 }}
                 className="shrink-0 w-full md:w-auto text-center border border-gold text-gold px-6 py-2 font-display text-sm tracking-wider hover:bg-gold hover:text-forest transition-colors duration-200"
               >
                 Kaydol
-              </motion.button>
+              </motion.a>
             </motion.div>
           ))}
         </div>

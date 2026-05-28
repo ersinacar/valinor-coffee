@@ -8,6 +8,8 @@ import EventsSection  from './components/EventsSection'
 import ReviewsSection from './components/ReviewsSection'
 import ContactSection from './components/ContactSection'
 import Footer         from './components/Footer'
+import WhatsAppFab    from './components/WhatsAppFab'
+import ScrollToTop    from './components/ScrollToTop'
 
 export default function App() {
   return (
@@ -24,6 +26,8 @@ export default function App() {
         <ContactSection />
       </main>
       <Footer />
+      <WhatsAppFab />
+      <ScrollToTop />
     </>
   )
 }

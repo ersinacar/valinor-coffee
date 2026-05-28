@@ -6,6 +6,7 @@ const LINKS = [
   { label: 'Hikayemiz',   href: '#story'   },
   { label: 'Galeri',      href: '#gallery' },
   { label: 'Etkinlikler', href: '#events'  },
+  { label: 'Yorumlar',    href: '#reviews' },
   { label: 'İletişim',    href: '#contact' },
 ]
 
